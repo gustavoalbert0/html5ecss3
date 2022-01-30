@@ -1,0 +1,102 @@
+HTLM = voltado para noticias 
+CSS = voltado para o design do site
+JAVA CRIPT = interatividade
+
+atalho imagem = ctrl + space
+
+ATALHO TERMINAL = ctrl + shift + p + abb + codigo que quer colocar 
+
+atalho muda letra de varias linhas = exmp <ol> clicla no meio do 'o' e do 'l' e segura o alt e vai clicando em todos os <ol> segurando o alt 
+
+<br> = vai quebrar o texto quando colocar a frente da palavra 
+
+&lt; e &gt = é usado para mostrar tags no site e o 'l' sempre antes do 'g' e lembrar de não usar os <> exemp : &lt;br&gt;  
+
+Emoji por codigo = sempre usar &#x antes do codigo do emoji exemplo 
+emoji risadinha: U+1F601 
+como fazer:&#x1F601
+
+Icone = ir no campo do head e digitar link favicon e colocar o nome da imagem na opçõa href se usa <img> para colocar 
+
+PNG = foto com fundo transparente e com uma maior qualidade de imagem 
+
+JPG = foto com fundo irremovivel e com menor qualidade de imagem
+
+img = colocar uma imagem ou um icone  
+
+b = deixa em negrito (não semantico)
+
+strong = deixa em negrito (semantico)
+
+i = deixa em italico (não semantico)
+
+em = deixa o texto em enfâse a mesma coisa que italico (semantico)
+
+mark = deixa a letra marcada igual marca-textos 
+
+mark style background = Voce escolhe a cor do marca texto
+
+big = Deixa a letra grande (obsoleto)
+
+small = Deixa a letra pequena (obsoleto)
+
+del = Coloca um risco no meio da frase desconsiderando-a.
+
+ins = Para colocar uma under lane debaixo das palavras (Semantico)
+
+u = Para colocar uma under lane debaixo das palavras (não semantico)
+
+sup = Para elevar algum numero se usa sup no numero o qual quer elevar
+
+sub = Para rebaixar um numero como no exemplo do h2o o 2 tem q ficar rebaixado
+
+code = Deixar letras de tamanhos e categorias difentes iguais
+
+q = Coloca aspas em uma citação 
+
+Blockquote = serve para mostrar uma citação e colocar o link daquela citação 
+
+abbr = serve para mostrar uma janelinha com o significado daquela palavra
+
+bdo = determina a ordem do texto caso seja ltr: left do right e rtl : right to left
+
+ol = montar listas ordenadas
+ol type = voce escolhe se quer ordenar em numeros ou me letras 
+ol start = Escolhe a numeração que começa a lista
+
+li = Enumera a lista com numeros ou com a opção que voce escolher
+
+ul = Para listas não hordenadas portando elas não vão ser numeradas 
+ul type = escolhe o formato da bolinha tipos:disc,circle,square.
+   
+dl = lista criada para colcoar a definição e o termo dele e obrigado a usar o dt e o dd no dl
+dt = termo 
+dd = definição 
+
+a = adicionar uma ancora ou um link do seu site ou de outros
+target="_blank" rel="external" = para o usuario não sair do seu site e ao clicar no link abrir uma nova janela.
+
+segunda pagina interna = podes criar um programa no mesmo programa em novo arquivo exemp pag002.html e fazer um link da primeira pagina pra segunda e da segunda para a primeira
+
+link external = link que vai para o site de outra pessoa exemp:<a href="https://gustavoguanabara.github.io/"target="_blank" rel="external">
+
+link iternal = link que vai para uma segunda pagina sua exemp:<a href="pag002.html"rel=next>Segunda pagina</a>
+
+link nofollow = link que vai levar ao site de segunda pessoa mas vc não sabe se aquele site e de segurança 
+
+3 guia = para uma 3 pagina do site voltar para a primeira use na terceira pagina o ' ../ ' 
+e selecione o link da sua 1 pagina
+
+hreflang = indica qual e o idioma do site para onde o link ta desviando o fulxo de navegação.
+
+picture = serve para vc alocar tags com img e outras funçoes para o seu site
+
+source media type = vc escolhe o tamanho que a imagem vai ficar para cada dispositivo (recomendado trocar o 'min' por 'max')(ordem carregando a foto maior por baixo e depois indo diminuindo debaixo pra cima)
+
+audio = para reproduzir um audio lembrando sempre usar o 'controls autoplay' exemp:<audio src="Emergency Siren Approaching .mp3" controls autoplay>forma 2 </audio> há como usar soucers tbm como mp3,ogg,wav;(pasta 11 de ex)
+
+video = coloca um video e se usa o 'width' para inficar a largura do video e 'poster' selecionar a thumb.
+exemp: width="600"
+colocar o "controls" para o usuario começar o video
+ 
+ 

@@ -1,0 +1,2 @@
+Este video do curso se resume em falar de codigos antigos do html4 que a gente não pode mais usar hoje em dia no html5, google desvaloriza sites com linguagens de html4.
+Para consultar codigos que não valem mais entre no site dv.w3.org

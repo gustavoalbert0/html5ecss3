@@ -1,0 +1,184 @@
+CSS = Cascading Style Sheets
+SELETORES PERSONALIZADOS : 
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo - element
+    > = children
+
+Ctrl + ; = deixar invalido;
+
+style = background-color:cor que tu que de fundo;
+
+style = color: cor da letra que voce quer;
+
+style = text-align: justify : alinha o texto que esta torto
+
+fonte-size = aumentar a fonte (aumentar todas as letrinhas) exemp : font-size: 20px ou 1.5em
+
+fonte-family = O estilo da letra que voce quer exemp : font-family: Arial Helvetica
+
+text - align: right; = Para colocar um texto na parte direita no site
+
+link css : para criar um css externo
+
+Sempre usar charset Utf8 na pagina de css externo para ter compatibilidade
+
+-------CORES DENTRO DO CIRCULO CROMATICO-------
+
+Cores Primarias:Azul,Vermelho,Amarelo.
+
+Cores Secundarias:Verde,Laranja,Violeta.
+
+Cores Terciarias:Amarelo-esverdeado,Amarelo-alaranjado,Azul-esverdeado,Azul-arroxeado,Vermelho-alaranjado,Vermelho-Arroxeado (São misturas de cores primarias e secundarias)(Quando for nomear sempre colocar o nome da primeira cor e depois da segunda)
+-----------------------------------------------
+
+Cores Complementares:Trasse uma reta para o lado oposto (exemplo:Violeta e amarelo) 
+
+Cores Anâlogas:para usar escolha uma cor e pegue uma cor que esta do lado esquerdo e do direito.
+-----------------------------------------------
+Degradezao: background: linear-gradient(to left,cores,cores,cores;)
+
+background-attachment: fixar a pagina no degrade
+
+height: da espaço de um paragrafo ao outro exemp: height:30%;
+------------------------------------------------
+text-align:justify : para ficar ageitadinho no cantinho esquerdo do texto
+
+text-align:center : para uma frase ficar no meio da folha
+
+width: largura do video,imagem ou texto exemplo: width:600px
+
+padding: para a letra não ficar colada na borda,exemplo:padding:10px
+
+margin: vai centralizar no meio da tela a imagem,video ou texto exemplo: margin:auto;
+
+border-radius: vai tirar as pontas do texto ou "papel" e vai curvalas; exemplo:border-radius:10px
+
+box-shadow: sombrinha 3D, 2 exemplos de 3D e o box-shadow: se o seu conteudo tiver dentro de um quadrado;exemplo:box-shadow: 5px 5px 15px #3a4232e5
+
+text shadow: para dar uma sombra na letra efeito 3d parecendo que ta pulando ta tela;exemplo:text-shadow: 1px 1px 2px #2b1a13;
+
+Tipografia: Estilo das letras, cada letra passa uma emoção ou seriedade diferente, Johannes Gutenberg "criou" a prensa mecânica de tipos móveis
+---------------------------------------------------
+Altura das maiúsculas:E a altura das letras maiusculas vazadas para cima.
+
+Altura de x: e o tamanho de todas as letras minusculas
+
+Ascendente: Vazamento de letras minusculas para cima
+
+Descendente: Vazamento de letras maiusculas para baixo
+
+Corpo: Alturas de todas as letras e fontes
+ 
+fonte = conjunto de glifos
+
+fonte serifadas = letras que tem o pezinho(letra mais bonita e que ajuda na leitura)
+
+sans-serif(sem serifa) = letras sem perninha todas retas e finas (recomendado para ultilizar em textos muito longos)
+
+Monoespaçada = pode ser com ou sem serifa,letras que tem o mesmo espaçamento independente do tamanho.
+
+handwriting(fonte escripitada) = ela simula a escrita a mão pois se parece muito com a escrita a mão.
+
+display = fontes comemorativas, usadas mais em pequenos titulos ou em nomes como Jurassic park
+
+medidas absolutas: cm , mm , in, px,pt, pc (centimetro),(milimetro),(polegada),(pixel),(ponto),(pica);
+
+medidas relativas: em, ex, rem, vw, vh, %; (tamanho atual da fonte),(tamanho da altura x de uma fonte),(relativa ao roote),(view port relativo ao tamanho de tela do aplicativo)(altura da view port);
+
+fonte weight : lighter, normal,bold, bolder;
+
+text decoration: decoraçoes que foram aprendido no html agora tem que ser por essa função
+
+font-face: para adicionar uma fonte externa.
+
+text-ident:Para colocar paragráfo na primeira palavra do texto. exemp: text-ident: 30px;
+
+id= para seletores personalizados na pagina do css coloca o # e o nome no lugar do id =;exemp id=principal no CSS #principal 
+
+class = quando for multiplos diferente do id= que é unico
+
+span = para selecionar uma parte do texto exemp: gustavo gosta de beber <span>cola cola com limao</span> todo final de semana
+
+border = cria quadrados exemp: 1px(largura),solid(tipo),black(cor);
+
+div = não representa nada só um nome pra sei la separar objetos 
+
+pseudoclasses = tem que estar relacionada a uma classe ou a um elemento nunca sozinha a pseudoclasses é representada com o " : " 
+
+hover: tu passa o mouse em cima de uma frase e frase fica de outra cor exemp: div:hover{ color:blue}
+
+display: inline-block; = pra fazer os quadrados ficar tudo na mesma linha significado : exibição em bloco embutido
+
+display none: para não mostrar o coteudo 
+
+display block: para mostrar o conteudo do none
+
+:visited =  quando o link ja foi clicado ou visitado o link fica de outra cor
+
+:active = na hora que voce clica ou "ativa" em cima do link ele. muda de cor
+
+pseudoclasses = '::' Pseudo-elementos em CSS - @Curso em Vídeo HTML5 e CSS3 , da pra fazer com que coisas antes e depois apareçam sem escrever nada no html ou css.
+
+::after = depois de todos os links vau aparecer o q tu quer
+content: é conteudo e tipo um display
+
+> = significa children voce pode ver um exemplo no ex020; 
+
+box level = sempre se inicia em uma linha nova, ele sempre ocupa a largura 100% da sua tela <div>
+
+inline level = pode ser feita na metade de uma linha <span>
+
+padding = borda pra dentro, entre o conteudo e a borda.
+
+padding = como usar o padding 1-padding-top=10px , padding-right=10px, padding-bottom=10px,padding-left=10px;
+
+margin = borda pra fora
+
+margin = como usar o margin 1-margin-top=10px ,2-margin-right=10px, 3-margin-bottom=10px,4-margin-left=10px;
+
+
+Outline = em cima da borda de pra dentro
+
+border-widht = largura da borda
+
+border-style = formato da borda o natural e ser 'solid' outras formas são dashed = pontilhado,dotted = bolinhas pontilhadas,groove = 3D,
+
+border color = cor da borda
+
+margin:auto; = centralizar a box no meio da tela;
+
+outline-style = linha que vai em cima da borda.(só funciona se vc colocar esta porra)
+
+outline-width = largura do outline
+
+outline-color = cor do outline
+
+Transformar = um box level em um inline level = display:inline; ou display:block;
+
+('---MAIS DETALHES = Modelo de Caixas na prática (parte 2) - @Curso em Vídeo HTML5 e CSS3--')
+-------------------------------------------
+       Deixar o programa organizado 
+
+Organização = no começo do programa na parte body se usa o header, no meio se usa o main e no final se usa o footer.
+
+section = sessão, normalmente usado antes de tudo antes ou depois de article é o recomendado.
+
+aside = conteudo periferico ao artigo que é comum usado dentro do article.exemp = Artigo escrito por Carlos Sainz
+
+nav = de navegação utulizado para colocar links externos
+
+article = artigo;
+
+box-shadow inset = pra sombra da borda ficar para dentro
+
+border-image-slice : multiplicar o desenho de borda que voce fez;
+
+border image repeat or stretch: repete o desenho;
+
+border image source = usado pra colocar a imagem que voce fez no programa
+
+:root = raiz da arvore de um site, serve para o codigo inteiro, lugar para colocar o nome das variaveis igual em linguagem C.
+
+@font-face: para colocar seu estilo baixado, porem so deve funcionar em CSS externo, é como se vc criasse a sua propria fonte.

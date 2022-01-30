@@ -1,0 +1,28 @@
+Pexels = baixar videos curtos e imagens aleatorios.
+
+Adoble Colors = gerenciar cores fazer degrades e etc.
+
+Paletton = gerenciar cores e ter uma visão de como possivelmente o seu site vai ficar.
+
+Coolors = site basicao que te ajuda a escolher as cores da paleta.
+
+CSS Web Safe Fonte Combinations = para ver todos os estilos de letras em exemplos.
+
+Google Fonts: Baixar fontes de letras gratis.
+
+Dafont: Fontes mais especificas, que não tem no google fontes
+
+wordpress: para criar sites 
+
+E-commerce: para criar lojas onlines
+
+what font is: site para identificar fontes em imagens 
+
+fontsquirrel: site para identificar fontes em imagens
+
+whatthefont: site para identificar fontes em imagens
+
+erikasarti: site com icones especificos em preto e branco
+
+mockflow:desenhar o formato do seu site
+

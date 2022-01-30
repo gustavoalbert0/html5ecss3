@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: white
+}
+
+h1{
+    color: #daa520;
+    text-align: center;
+}
+
+#axieinfinity{
+    width:1350px;
+    height:175px;
+    border: #f80808;
+    border-style: solid;
+    background-color: rgb(233, 18, 215);
+  }
+
+#bombcrypto{
+    width:1350px;
+    height:175px;
+    border: blue;
+    border-style: solid;
+    background-color: royalblue;
+  }
+
+#cryptoplanes{
+   width:1350px;
+   height: 175px;
+   border: green;
+   border-style: solid;
+   background-color: greenyellow;  
+}
+
+#slogan{
+  color: #f80808;
+  font-style: italic;
+  text-align: center;
+}
+
+nav{
+  color: rgb(91, 91, 238);
+}
+
