@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento de imagens</title>
+    <style>
+        body{
+            height:96vh;
+            background-color: rgb(63, 63, 63);
+            color: bisque;
+            background-image: url('https://esportecerto.com/wp-content/uploads/2021/01/cb39533ff7130539e6a188208669fde4_luz.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+     
+        }
+        div{
+            border: 3px solid black;
+            margin: 5px;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            margin: 20px;
+        }
+        #saopaulo{
+            border-color: red;
+            background-image: url('https://img.elo7.com.br/product/original/29BC368/adesivo-escudo-sao-paulo-0-54cm-x-0-40cm.jpg');
+            background-position: center center;
+            background-size: 200px 200px;
+            background-repeat: no-repeat;
+        }
+
+        #barcelona{
+            border-color: orangered;
+            background-image: url('https://logo.criativoon.com/wp-content/uploads/2019/10/logo-barcelona.jpg');
+            background-size: 250px 200px;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        #porto{
+            border-color:blue;
+            background-image: url('https://pbs.twimg.com/media/DKzX7KdXoAAbW5Q.jpg');
+            background-position: center center;
+            background-size: 300px 200px;
+            background-repeat: no-repeat;
+        }
+
+        #liverpool{
+            border-color: aqua;
+            background-image: url('https://thumbs.dreamstime.com/b/logotipo-de-liverpool-120473827.jpg');
+            background-position: center;
+            background-size: 230px 200px;
+            background-repeat: no-repeat;
+        }
+
+        #ajax{
+            border-color: rgb(100, 3, 3);
+            background-image: url('http://s2.glbimg.com/_vJ-MfEMahykzNYUnytYHibLWoo=/smart/s.glbimg.com/es/ge/f/original/2016/09/30/ajax_badge.jpg');
+            background-position: center center;
+            background-size: 250px 200px;
+            background-repeat:no-repeat;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Meus times favoritos</h1>
+
+    <a href="https://www.instagram.com/saopaulofc/" target="_blank">
+        <div class="quadrado" id="saopaulo">
+        </div>
+    </a>
+
+    <a href="https://www.instagram.com/fcbarcelona/" target="_blank">
+        <div class="quadrado" id="barcelona">
+        </div>
+    </a>
+
+    <a href="https://www.instagram.com/fcporto/" target="_blank">
+        <div class="quadrado" id="porto">
+        </div>
+    </a>
+
+    <a href="https://www.instagram.com/liverpoolfc/" target="_blank">
+        <div class="quadrado" id="liverpool">
+        </div>
+    </a>
+
+    <a href="https://www.instagram.com/afcajax/" target="_blank">
+        <div class="quadrado" id="ajax">
+        </div>
+    </a>
+
+</body>
+</html>
