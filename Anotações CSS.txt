@@ -182,3 +182,11 @@ border image source = usado pra colocar a imagem que voce fez no programa
 :root = raiz da arvore de um site, serve para o codigo inteiro, lugar para colocar o nome das variaveis igual em linguagem C.
 
 @font-face: para colocar seu estilo baixado, porem so deve funcionar em CSS externo, é como se vc criasse a sua propria fonte.
+
+background size = muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela sem nenhum corte.
+
+background contain = redimensiona a imagem para que ela cubra o contêiner, mesmo que para isso ocorra alguns eventuais cortes.
+
+background-attachment:fixed = vai paralizar a imagem preencher ela toda na tela e só vai rolar o conteúdo.
+
+background-attachment: scrool = o conteudo vai ter uma borda do lado pra vc rolar
