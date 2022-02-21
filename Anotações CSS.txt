@@ -190,3 +190,5 @@ background contain = redimensiona a imagem para que ela cubra o contêiner, mesm
 background-attachment:fixed = vai paralizar a imagem preencher ela toda na tela e só vai rolar o conteúdo.
 
 background-attachment: scrool = o conteudo vai ter uma borda do lado pra vc rolar
+
+background-size: cover = tira as sobras das laterias e preenche com a imagem toda.
