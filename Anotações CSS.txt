@@ -192,3 +192,8 @@ background-attachment:fixed = vai paralizar a imagem preencher ela toda na tela 
 background-attachment: scrool = o conteudo vai ter uma borda do lado pra vc rolar
 
 background-size: cover = tira as sobras das laterias e preenche com a imagem toda.
+
+position relative = ele vai ser relativo e vai ficar no lugaro onde todo bloco fica que e no top left;
+
+position absolute = quando voce coloca essa função vc tem o poder de configurar dois posicionamentos que é o left e o top.  
+
