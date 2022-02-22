@@ -197,3 +197,6 @@ position relative = ele vai ser relativo e vai ficar no lugaro onde todo bloco f
 
 position absolute = quando voce coloca essa função vc tem o poder de configurar dois posicionamentos que é o left e o top.  
 
+text transform: uppercase = transforma todas as letras em maiusculas
+
+line-height = espaçamento entre uma frase que ta em cima da debaixo
