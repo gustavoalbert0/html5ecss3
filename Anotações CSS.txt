@@ -157,6 +157,8 @@ outline-color = cor do outline
 
 Transformar = um box level em um inline level = display:inline; ou display:block;
 
+line-height = distancia de uma linha e outra
+
 ('---MAIS DETALHES = Modelo de Caixas na prática (parte 2) - @Curso em Vídeo HTML5 e CSS3--')
 -------------------------------------------
        Deixar o programa organizado 
