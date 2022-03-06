@@ -11,10 +11,12 @@
   font-family: nomes;
   src: url(The\ Amazing\ Spider-Man.ttf) format('truetype');
 } 
+
 @font-face {
   font-family:titulo;
   src: url(HOMOARAK.TTF) format('truetype');
 }
+
 main{
   background-color: #e50913;
   color:black;
@@ -67,9 +69,17 @@ nav{
   padding: 5px;
 }
 
-h2{
+article > h2{
   font-family:'nomes', Times, serif;
   text-align: center;
+  background-image: linear-gradient(to right, black,#e50913);
+  border-radius: 5px;
+  color: white;
+  font-size: larger;
+}
+
+ul{
+  columns: 3;
 }
 
 img{

@@ -39,7 +39,7 @@ header > h1{
 header > p{
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 1px black;
 }
 
 nav{
@@ -65,8 +65,8 @@ nav > a:hover{
 
 main{
     background-color: white;
-    margin-left: 155px;
-    margin-right: 155px;
+    margin-left: 110px;
+    margin-right: 110px;
     margin-bottom: 30px;
     text-align: justify;
     padding: 20px;
@@ -98,8 +98,6 @@ article > h2{
 article > p {
     text-indent: 35px; 
     line-height: 31px;
-    min-width: 300px;
-    max-width: 1200px;
     font-family: Arial, Verdana, Helvetica;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -118,11 +116,13 @@ article > p > a {
 
 aside{
     background-color:#83E1AD;
-    border-radius: 5px;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 30px;
-    text-indent: 15px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    box-shadow: 3px 3px 8px black
 }
 
 ul{
@@ -131,6 +131,8 @@ ul{
     line-height: 20px;
     columns: 2;
     list-style-position: inside;
+    margin-left: 0px;
+    margin-top: 20px;
 }
 
 img{
@@ -139,11 +141,32 @@ img{
     
 }
 
-aside > h2 {
+aside > h3 {
     background-color: #1A5A36;
     color: white;
-    border-radius: 5px;
-    text-indent: 6px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px ;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+    
+}
+
+aside > p > a {
+    color: #063D1E;
+    text-decoration: none;
+}
+
+#unico:hover{
+    text-decoration: underline;
+}
+
+
+aside > p{
+    margin-top: 15px;
+    line-height: 30px;
+    text-indent: 30px;
 }
 
 footer{
