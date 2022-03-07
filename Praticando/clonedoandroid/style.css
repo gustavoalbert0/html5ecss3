@@ -132,16 +132,14 @@ ul{
     margin-top: 20px;
 }
 
-/*img{
-    margin: auto;
-    display: block;
-    max-width: 1000px;
-    min-width: 300px;
-    
-}*/
-
 img{
- width: 100%;
+    width: 100%;
+}
+
+img#bugdroid{
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
 
 aside > h3 {
