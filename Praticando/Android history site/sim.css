@@ -14,9 +14,10 @@ main{ /* reponsividade para o texto*/
     padding: 20px;
     border-radius: 3px;
 
-    max-width: 1200px;
-    min-width: 320px;
     margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    
     /*------------------*/
 
 }
