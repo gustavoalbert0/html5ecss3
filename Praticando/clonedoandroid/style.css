@@ -142,6 +142,27 @@ img#bugdroid{
     margin: auto;
 }
 
+div.video{
+    background-color: #1A5C37;
+    margin-right:-20px;
+    margin-left: -20px;
+    padding: 20%;
+
+    position: relative;
+
+}
+
+div.video > iframe{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+
+    top: 0%;
+    left: 5%;
+
+}
+
+
 aside > h3 {
     background-color: #1A5A36;
     color: white;
