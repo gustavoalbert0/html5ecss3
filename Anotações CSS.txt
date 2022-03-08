@@ -206,3 +206,5 @@ line-height = espaçamento entre uma frase que ta em cima da debaixo
 fontes baixadas = se usa o @font face, font family, src: url('link do arquivo') format('tipo da fonte')
 
 transition duration = quando você passar o mouse por cima de uma elemento :hover só vai fazer o efeito depois de 0.5 s exemp:transition-duration: 0.5s;
+
+imagem centralizada = margin auto e display block
