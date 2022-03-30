@@ -67,6 +67,7 @@ ol start = Escolhe a numeração que começa a lista
 li = Enumera a lista com numeros ou com a opção que voce escolher
 
 ul = Para listas não hordenadas portando elas não vão ser numeradas 
+
 ul type = escolhe o formato da bolinha tipos:disc,circle,square.
    
 dl = lista criada para colcoar a definição e o termo dele e obrigado a usar o dt e o dd no dl

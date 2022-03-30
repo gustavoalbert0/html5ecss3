@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'primeira';
+    src: url(fontes/The\ Amazing\ Spider-Man.ttf); 
+}
+
+@font-face {
+    font-family: 'segunda';
+    src: url(fontes/SNICN___.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-image: linear-gradient(to bottom, rgb(2, 2, 122), red);
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    max-width: 1100px;
+    min-width: 300px;
+    /*background-color: rgb(105, 1, 1);*/
+    background-color: rgb(224, 198, 163);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px black;
+}
+
+
+header {
+    padding: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    /*background-image: linear-gradient(to bottom, red,rgb(136, 4, 4));*/
+    background-image: url('estilo/fundo\ h1\ miranha.jpg');
+    background-repeat: repeat-x;
+    background-position: center center;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+}
+
+p{
+    text-align: center;
+    text-indent: 30px;
+    color: black;
+    text-align: justify;
+    font-size: larger;
+    background-color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    font-weight: bold;
+}
+
+ul#not{
+    text-indent: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+h1{
+    font-family: 'primeira', Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: xx-large;
+    color: black;
+    background-image: linear-gradient(to right,red,rgb(224, 198, 163));
+    margin: 20px;
+    border-radius: 3px;
+    font-family: 'segunda', Helvetica, sans-serif;
+    border-style: solid;
+    border-color: black;
+    border-right: none;
+}
+
+span{
+    text-decoration: underline 3px;
+}
+
+ul{
+    text-align: justify;
+    color: black;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+li{
+    padding: 15px;
+    font-weight: bold;
+}
+
+img{
+    padding: 20px;
+    width: 50%;
+}
+footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

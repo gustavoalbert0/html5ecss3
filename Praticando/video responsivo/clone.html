@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video responsivo praticando</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            margin: auto;
+            max-width: 1000px;
+            min-width: 300px;
+        }
+
+        main , header{
+            background-image: linear-gradient(to right, rgb(163, 29, 224),rgb(23, 86, 175) );
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+            padding: 50px;
+        }
+
+        h2{
+            text-align: center;
+            padding: 15px;
+        }
+
+        p{
+            padding: 10px;
+            text-indent: 20px;
+        }
+
+        img{
+            display: block;
+            margin: auto;
+            padding: 15px;
+            padding-bottom: -5px;
+        }
+
+        img#foto{
+            width: 100%;
+            max-width: 500px;
+            padding: 15px;
+            display: block;
+            margin: auto;
+            
+        }
+
+        div.video{
+            position: relative;
+            background-color: aqua;
+            padding: 25%;
+
+
+        }
+
+        div.video > iframe{
+            position: absolute;
+            width: 90%;
+            height: 90%;
+
+            top: 4.5%;
+            left: 5%;
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1>CHAMPIONS LEAGUE</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Imagem</h2>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cumque soluta nisi libero labore sequi, accusantium natus distinctio voluptatibus deserunt, doloremque repellat tenetur animi quae error officiis odit quidem nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil voluptate mollitia, expedita assumenda dolorum consequuntur vero veritatis? Quos optio culpa, deserunt explicabo harum accusantium soluta, asperiores, aliquam quia maxime in? </p>
+
+            <picture>
+                <source media="(max-width: 761px)" srcset="imagens/stadiumgrande.png">
+                <img src="imagens/stadiumucl.png" alt="stadiu normal zise">
+            </picture>
+
+            <h2>Video</h2>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, nobis labore distinctio mollitia nulla esse delectus veritatis voluptate magni nisi autem illo sed ex, praesentium ipsam odit quam. Accusantium, doloribus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam accusamus pariatur doloribus commodi similique illo laborum iusto consectetur, veritatis inventore eos repudiandae unde. Deserunt ipsum ex nobis aliquam tenetur quisquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis placeat tempore corporis assumenda, iusto, maxime soluta repellendus commodi dolorum pariatur nemo ea aliquid inventore a aspernatur praesentium expedita fugiat delectus? </p>
+
+            <div class="video"> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lH9IVr-O5k8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h2>Imagem 2</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ea harum ullam velit dicta aut iusto recusandae magnam? Dolore atque minima ipsa fuga ad asperiores rem quibusdam. Ex, amet voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugit magni culpa vel facilis doloribus quos odit veniam vero dolorum! Vel architecto placeat debitis, qui ratione doloribus dolores soluta veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dignissimos nesciunt reiciendis harum voluptatibus a facilis, eos error, architecto hic ut dolor nemo nihil! Sit enim porro ea vero delectus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit beatae iusto aliquam quasi commodi, pariatur sapiente dolore minus vero tempora iure aperiam, distinctio labore, officia cupiditate inventore sint! Architecto, totam. </p>
+
+
+                <img id="foto" src="imagens/fotoucl.jpg" alt="fotoucl">
+
+                
+
+        </article>
+    </main>
+
+    <footer>
+        <p> ❤ Created by Gustavo Barbosa and Gracie Pack ❤ </p>
+    </footer>
+</body>
+</html>
